@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pokepedia</title>
+	<link rel="stylesheet" type="text/css" href="E:\pokepedia\css\style.css">
+</head> 
+<body>
+	<style type="text/css">
+		*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+header{
+	background-image: url(E:\pokepedia\background.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+.main{
+
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+    margin-top: 25px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+
+.background img{
+	width: 1000px;
+	height: 600px;
+	margin-top: 0px;
+}
+.logo img{
+	float: left;
+	width: 150px;
+	height: auto;
+}
+
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+
+.title{
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.title h1{
+	color: #fff;
+	font-size: 70px;
+}
+
+.button{
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.btn{
+	border: 1px solid #fff;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+
+.btn:hover{
+	background-color: #fff;
+	color: #000;
+}
+	</style>
+	<header>
+		<div class="main">
+			<div class="main">
+				<background: img src="E:\pokepedia\background.jpg">
+				<div class="logo">
+					<img src="C:\Users\ACER\Downloads\LogoMakr_6YP2pz.png">
+				</div>
+			</div>
+		</div>
+		<ul>
+			<li class="active"><a href="#">HOME</a></li>
+			<li><a href="#">ALL POKEMONS</a></li>
+			<li><a href="#">EVOLVES FROM</a></li>
+			<li><a href="#">EVOLVES TO</a></li>
+			<li><a href="#">DEVELOPERS</a></li>
+		</ul>
+		<div class="title">
+			<h1>POKEPEDIA</h1>
+		</div>
+
+		<div class="button">
+			<a href="#" class="btn">ALL POKEMONS</a>
+			<a href="#" class="btn">DEVELOPERS</a>
+		</div>
+	</header>
+</body>
+</html>
